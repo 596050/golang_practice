@@ -1,0 +1,158 @@
+{
+  "flex_insights_hr": null,
+  "crm_type": null,
+  "date_updated": "2022-08-11T22:52:07Z",
+  "integrations": null,
+  "markdown": { "enabled": true, "mode": "readWrite" },
+  "crm_callback_url": null,
+  "serverless_service_sids": ["ZSed1667bfe708e6a0d5c5e433459e6090"],
+  "queue_stats_configuration": null,
+  "plugin_service_enabled": null,
+  "crm_attributes": null,
+  "ui_version": "~1.31.2",
+  "crm_fallback_url": null,
+  "service_version": null,
+  "taskrouter_target_workflow_sid": "WW8ee6614c3a07971973714f8e08f2254d",
+  "messaging_service_instance_sid": null,
+  "plugin_service_attributes": null,
+  "call_recording_enabled": null,
+  "call_recording_webhook_url": null,
+  "public_attributes": null,
+  "crm_enabled": null,
+  "status": "ok",
+  "taskrouter_worker_attributes": null,
+  "chat_service_instance_sid": "ISb00e58ae32964898aa5185a60ddc7560",
+  "taskrouter_worker_channels": null,
+  "ui_dependencies": { "react": "~16.13.1", "react-dom": "~16.13.1" },
+  "taskrouter_offline_activity_sid": "WA223a642ef4ad6ecd66882a6e86574891",
+  "notifications": { "enabled": true, "mode": "whenNotInFocus" },
+  "taskrouter_workspace_sid": "WS62ce15b66518a01a0dfed1b3bddf19a7",
+  "channel_configs": [
+    {
+      "cbm_attachments": {
+        "max_file_size": 16777216,
+        "max_total_file_size": 67108864,
+        "accepted_extensions": [
+          "jpg",
+          "jpeg",
+          "png",
+          "amr",
+          "mp3",
+          "mp4",
+          "pdf",
+          "heic",
+          "txt",
+          "gif"
+        ],
+        "enabled": true,
+        "number_of_attachments": 1
+      },
+      "address_type": "web"
+    },
+    {
+      "cbm_attachments": {
+        "max_file_size": 2097152,
+        "max_total_file_size": 5242880,
+        "accepted_extensions": [
+          "jpg",
+          "jpeg",
+          "png",
+          "amr",
+          "mp3",
+          "mp4",
+          "pdf",
+          "heic"
+        ],
+        "enabled": true,
+        "number_of_attachments": 1
+      },
+      "address_type": "sms"
+    },
+    {
+      "cbm_attachments": {
+        "max_file_size": 16777216,
+        "max_total_file_size": 67108864,
+        "accepted_extensions": [
+          "jpg",
+          "jpeg",
+          "png",
+          "amr",
+          "mp3",
+          "mp4",
+          "pdf",
+          "heic",
+          "oga"
+        ],
+        "enabled": true,
+        "number_of_attachments": 1
+      },
+      "address_type": "whatsapp"
+    },
+    {
+      "cbm_attachments": {
+        "max_file_size": 157286400,
+        "max_total_file_size": 157286400,
+        "accepted_extensions": [
+          "jpg",
+          "jpeg",
+          "png",
+          "amr",
+          "mp3",
+          "mp4",
+          "pdf",
+          "heic",
+          "txt",
+          "gif"
+        ],
+        "enabled": true,
+        "number_of_attachments": 10
+      },
+      "address_type": "email"
+    }
+  ],
+  "date_created": "2022-07-14T10:03:49Z",
+  "taskrouter_skills": [
+    { "minimum": null, "multivalue": false, "name": "Dealer", "maximum": null },
+    { "minimum": null, "multivalue": false, "name": "Google", "maximum": null },
+    { "minimum": null, "multivalue": false, "name": "SEO", "maximum": null },
+    { "minimum": null, "multivalue": false, "name": "Social", "maximum": null },
+    {
+      "minimum": null,
+      "multivalue": false,
+      "name": "Assessment",
+      "maximum": null
+    },
+    { "minimum": null, "multivalue": false, "name": "Admin", "maximum": null },
+    {
+      "minimum": null,
+      "multivalue": false,
+      "name": "Admin/Pay-Outs",
+      "maximum": null
+    },
+    {
+      "minimum": null,
+      "multivalue": false,
+      "name": "Complaints",
+      "maximum": null
+    }
+  ],
+  "taskrouter_taskqueues": null,
+  "ui_attributes": { "logLevel": "debug" },
+  "flex_insights_drilldown": true,
+  "url": "https://flex-api.twilio.com/v1/Configuration",
+  "outbound_call_flows": null,
+  "taskrouter_target_taskqueue_sid": "WQ2f29e252096662b862795e9b8cbfe130",
+  "account_sid": "AC15c46e55599c97081b39c4bd2d525de0",
+  "runtime_domain": "aqua-leopard-7935.twil.io",
+  "flex_url": null,
+  "ui_language": null,
+  "attributes": {
+    "seenOnboarding": true,
+    "previous_ui_version": {
+      "date": "2022-07-14T13:08:33.633Z",
+      "semver": "2.n",
+      "version": "2.0.0-beta.1"
+    }
+  },
+  "flex_service_instance_sid": "ISd0c6948d5824621bd21e761f9f623064"
+}

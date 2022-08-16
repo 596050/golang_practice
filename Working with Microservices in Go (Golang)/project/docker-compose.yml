@@ -1,0 +1,35 @@
+version: '3.9'
+
+services:
+  broker-service:
+    # build:
+    #   context: ./../broker-service
+    image: cosmtrek/air
+    # working_dir value has to be the same of mapped volume
+    working_dir: /app
+    ports:
+      - 8080:8080
+    volumes:
+      - ./../broker-service/:/app/
+    env_file:
+      - .env
+# environment:
+#   - ENV_A=${ENV_A}
+#   - ENV_B=${ENV_B}
+#   - ENV_C=${ENV_C}
+
+# services:
+#   broker-service:
+#     build:
+#       context: ./../broker-service
+#       dockerfile: ./../broker-service/broker-service.Dockerfile
+#     volumes:
+#       - ./:/app
+#     restart: always
+#     ports:
+#       - '8080:8080'
+#     deploy:
+#       mode: replicated
+#       replicas: 1
+#     env_file:
+#       - .env.dev
